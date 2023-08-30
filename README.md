@@ -28,7 +28,7 @@ In the master's thesis, the supply curves and prices of year 2021 of one of the 
 5. `Comparison_Frechet_pseudoFrechet_distances.R`: It contains all the code related to the comparison between the pseudo-Fréchet, pseudo- $L^2$ and Fréchet distances.
 6. 
 
-## How to use
+## Instructions
 
 1. Download all the scripts in the same folder
 2. Compile `Matrices_secondary_market_go_up.R` and `Matrices_secondary_market_go_down.R` files to obtain distance matrices.
