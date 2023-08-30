@@ -6,7 +6,7 @@ Author: Alba Diego Velarde
 
 Tutor: Andrés Modesto Alonso Fernández
 
-This repository contains all the code used in the Master's thesis.
+This repository contains all the code used in the Master's thesis.  
 
 ## Description 
 
