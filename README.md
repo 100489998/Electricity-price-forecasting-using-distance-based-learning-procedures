@@ -10,7 +10,7 @@ This repository contains all the code used in the Master's thesis.
 
 ## Description 
 
-In the master's thesis, the supply curves and prices of year 2021 of one of the Spanish electricity market, the secondary market, are forecasted. Two benchmark methods, based on a k-NN procedure and two methods based on a combination of k-NN and random forest, are used. All these methods require defining a distance between the supply curves. An approximation of the distance L\^2 between functions and two distances called pseudo-Fréchet and pseudo-L\^2 are used. A comparison between the three distances is carried out.
+In the master's thesis, the supply curves and prices of year 2021 of one of the Spanish electricity market, the secondary market, are forecasted. Two benchmark methods, based on a k-NN procedure and two methods based on a combination of k-NN and random forest, are used. All these methods require defining a distance between the supply curves. An approximation of the distance L\^2 between functions and two distances called pseudo-Fréchet and pseudo-$$L^2$$ are used. A comparison between the three distances is carried out.
 
 ## Data
 
