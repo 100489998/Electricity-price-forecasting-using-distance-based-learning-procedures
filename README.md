@@ -29,7 +29,7 @@ In the master's thesis, the supply curves and prices of year 2021 of one of the 
 6. `R2_comparison.R`: It contains a comparison of the $R^2$ values of the random forest models of the methods.
 7. `Price_prediction_errors_comparison`: It contains a comparison of the price prediction errors using the different distances
 
-Files containing the training and testing of the methods and the price prediction with the different distances:
+Scripts containing the training and testing of the methods and the price prediction with the different distances:
 1. `Methods_L2_distance_upward.R`: Upward secondary market and $L^2$ distance.
 2. `Methods_L2_distance_downward.R`: Downward secondary market and $L^2$ distance.
 3. `Methods_pseudo_Frechet_distance_upward.R`: Upward secondary market and pseudo-Fréchet distance.
@@ -41,9 +41,9 @@ Files containing the training and testing of the methods and the price predictio
 
 ## Instructions
 
-1. Download all the scripts in the same folder.
-2. Compile `Matrices_secondary_market_go_up.R` and `Matrices_secondary_market_go_down.R` files to obtain distance matrices which are input to the methods.
-3. Compile files containing the training and testing of the methods and the price prediction with the different distances.
-4. Compile `R2_comparison.R` and `Price_prediction_errors_comparison.R`
+1. Download all the scripts and data in the same folder.
+2. Compile `Matrices_secondary_market_go_up.R` and `Matrices_secondary_market_go_down.R` scripts to obtain distance matrices which are input to the methods.
+3. Compile scripts containing the training and testing of the methods and the price prediction with the different distances.
+4. Compile `R2_comparison.R` and `Price_prediction_errors_comparison.R`.
 
-The rest of the files do not require to have compiled any other file before.
+The rest of the scripts do not require to have compiled any other file before.
