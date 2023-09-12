@@ -4,13 +4,13 @@ Master's Thesis on statistics for data science
 
 Author: Alba Diego Velarde
 
-Tutor: Andrés Modesto Alonso Fernández
+Supervisor: Andrés Modesto Alonso Fernández
 
 This repository contains all the code used in the Master's thesis.  
 
 ## Description 
 
-In the master's thesis, the supply curves and prices of year 2021 of one of the Spanish electricity markets, the secondary market, are forecasted. Two benchmark methods, based on a k-NN procedure and two methods based on a combination of k-NN and random forest, are used. All these methods require defining a distance between the supply curves. An approximation of the $L^2$ distance between functions and two distances called pseudo-Fréchet and pseudo- $L^2$ are used. A comparison between the three distances is carried out.
+In the master's thesis, the supply curves and prices of year 2021 of one of the Spanish electricity markets, the secondary market, are forecasted. Two benchmark methods, based on a k-NN procedure and two methods based on a combination of k-NN and random forest, are used. All these methods require defining a distance between the supply curves. An approximation of the $L^2$ distance between functions and two distances called pseudo-Fréchet and pseudo- $L^2$ are used. A comparison between the four methods and between the three distances is carried out.
 
 ## Data
 
@@ -21,15 +21,29 @@ In the master's thesis, the supply curves and prices of year 2021 of one of the 
 
 ## Scripts 
 
-1. `Matrices_secondary_market_go_up.R`: It contains the code related to the computation of the distance matrices using $L^2$, pseudo-Fréchet and pseudo- $L^2$ distances of the secondary market to go up.
-2. `Matrices_secondary_market_go_down.R`: It contains the code related to the computation of the the distance matrices using $L^2$, pseudo-Fréchet and pseudo- $L^2$ distances of the secondary market to go down.
+1. `Matrices_secondary_market_upward.R`: It contains the code related to the computation of the distance matrices using $L^2$, pseudo-Fréchet and pseudo- $L^2$ distances of the secondary market to go up.
+2. `Matrices_secondary_market_downward.R`: It contains the code related to the computation of the the distance matrices using $L^2$, pseudo-Fréchet and pseudo- $L^2$ distances of the secondary market to go down.
 3. `Descriptive_analysis.R`: It contains the code related to the descriptive analysis section of the Master's Thesis.
 4. `Frechet_distance_tests.R`: It contains all the code related to the tests that have been done to try to use the Fréchet distance in the methods of the work.
-5. `Comparison_Frechet_pseudoFrechet_distances.R`: It contains all the code related to the comparison between the pseudo-Fréchet, pseudo- $L^2$ and Fréchet distances.
-6. 
+5. `Comparison_Frechet_pseudoFrechet_pseudoL2.R`: It contains all the code related to the comparison between the pseudo-Fréchet, pseudo- $L^2$ and Fréchet distances.
+6. `R2_comparison.R`: It contains a comparison of the $R^2$ values of the random forest models of the methods.
+7. `Price_prediction_errors_comparison`: It contains a comparison of the price prediction errors using the different distances
+
+Files containing the training and testing of the methods and the price prediction with the different distances:
+1. `Methods_L2_distance_upward.R`: Upward secondary market and $L^2$ distance.
+2. `Methods_L2_distance_downward.R`: Downward secondary market and $L^2$ distance.
+3. `Methods_pseudo_Frechet_distance_upward.R`: Upward secondary market and pseudo-Fréchet distance.
+4. `Methods_pseudo_Frechet_distance_downward.R`: Downward secondary market and pseudo-Fréchet distance.
+5. `Methods_pseudo_L2_distance_upward.R`: Upward secondary market and pseudo- $L^2$ distance.
+6. `Methods_pseudo_L2_distance_downward.R`: Downward secondary market and pseudo- $L^2$ distance.
+
+
 
 ## Instructions
 
-1. Download all the scripts in the same folder
-2. Compile `Matrices_secondary_market_go_up.R` and `Matrices_secondary_market_go_down.R` files to obtain distance matrices.
-3. 
+1. Download all the scripts in the same folder.
+2. Compile `Matrices_secondary_market_go_up.R` and `Matrices_secondary_market_go_down.R` files to obtain distance matrices which are input to the methods.
+3. Compile files containing the training and testing of the methods and the price prediction with the different distances.
+4. Compile `R2_comparison.R` and `Price_prediction_errors_comparison.R`
+
+The rest of the files do not require to have compiled any other file before.
