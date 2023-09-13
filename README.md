@@ -21,8 +21,8 @@ In the master's thesis, the supply curves and prices of year 2021 of one of the 
 
 ## Scripts 
 
-1. `Matrices_secondary_market_upward.R`: It contains the code related to the computation of the distance matrices using $L^2$, pseudo-Fréchet and pseudo- $L^2$ distances of the secondary market to go up.
-2. `Matrices_secondary_market_downward.R`: It contains the code related to the computation of the the distance matrices using $L^2$, pseudo-Fréchet and pseudo- $L^2$ distances of the secondary market to go down.
+1. `Matrices_upward_secondary_market.R`: It contains the code related to the computation of the distance matrices using $L^2$, pseudo-Fréchet and pseudo- $L^2$ distances of the secondary market to go up.
+2. `Matrices_downward_secondary_market.R`: It contains the code related to the computation of the the distance matrices using $L^2$, pseudo-Fréchet and pseudo- $L^2$ distances of the secondary market to go down.
 3. `Descriptive_analysis.R`: It contains the code related to the descriptive analysis section of the Master's Thesis.
 4. `Frechet_distance_tests.R`: It contains all the code related to the tests that have been done to try to use the Fréchet distance in the methods of the work.
 5. `Comparison_Frechet_pseudoFrechet_pseudoL2.R`: It contains all the code related to the comparison between the pseudo-Fréchet, pseudo- $L^2$ and Fréchet distances.
@@ -42,7 +42,7 @@ Scripts containing the training and testing of the methods and the price predict
 ## Instructions
 
 1. Download all the scripts and data in the same folder.
-2. Compile `Matrices_secondary_market_go_up.R` and `Matrices_secondary_market_go_down.R` scripts to obtain distance matrices which are input to the methods.
+2. Compile `Matrices_upward_secondary_market.R` and `Matrices_downward_secondary_market.R` scripts to obtain distance matrices which are input to the methods.
 3. Compile scripts containing the training and testing of the methods and the price prediction with the different distances.
 4. Compile `R2_comparison.R` and `Price_prediction_errors_comparison.R`.
 
