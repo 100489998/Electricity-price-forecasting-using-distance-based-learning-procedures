@@ -27,7 +27,8 @@ In the master's thesis, the supply curves and prices of year 2021 of one of the 
 4. `Frechet_distance_tests.R`: It contains all the code related to the tests that have been done to try to use the Fréchet distance in the methods of the work.
 5. `Comparison_Frechet_pseudoFrechet_pseudoL2.R`: It contains all the code related to the comparison between the pseudo-Fréchet, pseudo- $L^2$ and Fréchet distances.
 6. `R2_comparison.R`: It contains a comparison of the $R^2$ values of the random forest models of the methods.
-7. `Price_prediction_errors_comparison`: It contains a comparison of the price prediction errors using the different distances
+7. `Price_prediction_errors_comparison`: It contains a comparison of the price prediction errors using the different distances.
+8. `Correlations.R`: It contains the Spearman correlation coefficients between the independent and the dependent variables of the random forest models.
 
 Scripts containing the training and testing of the methods and the price prediction with the different distances:
 1. `Methods_L2_distance_upward.R`: Upward secondary market and $L^2$ distance.
